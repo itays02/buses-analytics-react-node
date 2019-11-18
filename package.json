@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "client_install": "cd client && yarn install",
+    "client": "cd client && npm start",
+    "server": "node server",
+    "start": "concurrently --kill-others \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "cookie": "^0.4.0",
+    "csvjson": "^5.1.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "nonce": "^1.0.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}

@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  background: beige;
+  font-size: 12px;
+  margin: 10px;
+}
+
+label{
+  font-size: 18px;
+  font-weight: bolder;
+}
