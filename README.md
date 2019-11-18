@@ -1,4 +1,4 @@
-###Buses Times Analytics Page
+### Buses Times Analytics Page
 
 Sample React app running on NodeJS server for analyzing buses frequency   
 (including extracting data from a csv file) and show a specific histogram. 
